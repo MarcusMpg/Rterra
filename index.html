@@ -1,231 +1,178 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>R-TERRA - Regularização Fundiária e Consultoria</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
-      body {
-        font-family: "Inter", sans-serif;
-        background-color: #f7fbf8;
-        color: #1e402d;
-      }
-      .bg-r-terra-green {
-        background-color: #1e402d;
-      }
-      .text-r-terra-green {
-        color: #1e402d;
-      }
-      .contact-btn {
-        background-color: #1e402d;
-        color: white;
-        padding: 1rem 2.5rem;
-        border-radius: 9999px;
-        font-weight: 600;
-        text-decoration: none;
-        transition: background-color 0.3s ease;
-      }
-      .contact-btn:hover {
-        background-color: #2c5943;
-      }
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7fbf8;
+            color: #1e402d;
+        }
+        .bg-r-terra-green {
+            background-color: #1e402d;
+        }
+        .text-r-terra-green {
+            color: #1e402d;
+        }
+        .contact-btn {
+            background-color: #1e402d;
+            color: white;
+            padding: 1rem 2.5rem;
+            border-radius: 9999px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .contact-btn:hover {
+            background-color: #2c5943;
+        }
     </style>
-  </head>
-  <body class="bg-gray-100">
+</head>
+<body class="bg-gray-100">
     <!-- Navbar -->
     <header class="bg-r-terra-green text-white shadow-lg sticky top-0 z-50">
-      <nav
-        class="container mx-auto px-6 py-4 flex justify-between items-center"
-      >
-        <div class="flex items-center space-x-2">
-          <!-- Nova logo do R-TERRA adicionada aqui -->
-          <img
-            src="https://i.imgur.com/39hN76l.png"
-            alt="Logo R-Terra"
-            class="h-10 w-10 md:h-12 md:w-12 rounded-full shadow-md"
-          />
-          <a href="#home" class="text-2xl font-bold tracking-tight">R-TERRA</a>
-        </div>
-        <div class="space-x-4 hidden md:flex">
-          <a href="#problema" class="hover:underline hover:text-gray-300"
-            >Problema</a
-          >
-          <a href="#solucao" class="hover:underline hover:text-gray-300"
-            >Solução</a
-          >
-          <a href="#mercado" class="hover:underline hover:text-gray-300"
-            >Mercado</a
-          >
-          <a href="#missao" class="hover:underline hover:text-gray-300"
-            >Nossa Missão</a
-          >
-          <a href="#contato" class="hover:underline hover:text-gray-300"
-            >Contato</a
-          >
-        </div>
-      </nav>
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <!-- Nova logo do R-TERRA adicionada aqui -->
+                <img src="https://i.imgur.com/39hN76l.png" alt="Logo R-Terra" class="h-10 w-10 md:h-12 md:w-12 rounded-full shadow-md">
+                <a href="#home" class="text-2xl font-bold tracking-tight">R-TERRA</a>
+            </div>
+            <div class="space-x-4 hidden md:flex">
+                <a href="#problema" class="hover:underline hover:text-gray-300">Problema</a>
+                <a href="#solucao" class="hover:underline hover:text-gray-300">Solução</a>
+                <a href="#mercado" class="hover:underline hover:text-gray-300">Mercado</a>
+                <a href="#missao" class="hover:underline hover:text-gray-300">Nossa Missão</a>
+                <a href="#contato" class="hover:underline hover:text-gray-300">Contato</a>
+            </div>
+        </nav>
     </header>
 
     <main class="py-12">
-      <!-- Home Section -->
-      <section id="home" class="container mx-auto px-6 text-center py-20">
-        <h1 class="text-4xl md:text-6xl font-extrabold text-r-terra-green mb-4">
-          DA CIDADE REAL PARA A CIDADE LEGAL
-        </h1>
-        <p class="text-lg md:text-2xl text-gray-700">
-          REGULARIZAÇÃO FUNDIÁRIA, CAPACITAÇÃO, CONSULTORIA TÉCNICA AMBIENTAL E
-          URBANÍSTICA
-        </p>
-      </section>
+        <!-- Home Section -->
+        <section id="home" class="container mx-auto px-6 text-center py-20">
+            <h1 class="text-4xl md:text-6xl font-extrabold text-r-terra-green mb-4">DA CIDADE REAL PARA A CIDADE LEGAL</h1>
+            <p class="text-lg md:text-2xl text-gray-700">REGULARIZAÇÃO FUNDIÁRIA, CAPACITAÇÃO, CONSULTORIA TÉCNICA AMBIENTAL E URBANÍSTICA</p>
+        </section>
 
-      <!-- Google Maps Section -->
-      <section id="mapa" class="w-full">
-        <div class="container mx-auto px-6">
-          <h2
-            class="text-3xl md:text-4xl font-bold text-center text-r-terra-green mb-8"
-          >
-            Procure seu Imóvel
-          </h2>
-          <div class="w-full rounded-xl overflow-hidden shadow-lg">
-            <!-- Placeholder para o Google Maps. Para usar o mapa real, gere um código de incorporação (iframe) do Google Maps e substitua o 'src' abaixo. -->
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15951.246479634863!2d-48.48796195!3d-1.45524315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92a48e71869811fd%3A0xc3f7a63e9f4a0c84!2sBel%C3%A9m%2C%20PA!5e0!3m2!1spt-BR!2sbr!4v1678945678901!5m2!1spt-BR!2sbr"
-              width="100%"
-              height="450"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            >
-            </iframe>
-          </div>
-        </div>
-      </section>
-
-      <!-- Problema Section -->
-      <section id="problema" class="bg-white py-16">
-        <div class="container mx-auto px-6">
-          <h2
-            class="text-3xl md:text-4xl font-bold text-center text-r-terra-green mb-8"
-          >
-            1. O Problema
-          </h2>
-          <div class="max-w-3xl mx-auto bg-gray-50 p-8 rounded-xl shadow-md">
-            <p class="text-lg text-gray-700 mb-6">
-              A irregularidade fundiária e urbana é um problema persistente em
-              cidades, gerando ineficiência nos processos de regularização
-              (REURB). Essa situação resulta em diversas complicações:
-            </p>
-            <ul class="list-disc list-inside space-y-2 text-gray-700">
-              <li>Insegurança jurídica</li>
-              <li>Problemas ambientais e sociais</li>
-              <li>Prejuízo ao Poder Público</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <!-- Solução Section -->
-      <section id="solucao" class="py-16">
-        <div class="container mx-auto px-6">
-          <h2
-            class="text-3xl md:text-4xl font-bold text-center text-r-terra-green mb-8"
-          >
-            2. O Produto
-          </h2>
-          <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
-            <div class="bg-white p-8 rounded-xl shadow-md">
-              <h3 class="text-xl font-bold text-r-terra-green mb-4">
-                Plataforma Web
-              </h3>
-              <p class="text-gray-700">
-                Nossa solução é uma plataforma web que utiliza a API de mapas do
-                Google para mapear e rastrear imóveis com situações jurídicas
-                irregulares.
-              </p>
+        <!-- Google Maps Section -->
+        <section id="mapa" class="w-full">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center text-r-terra-green mb-8">Procure seu Imóvel !</h2>
+                <div class="w-full rounded-xl overflow-hidden shadow-lg">
+                    <!-- Placeholder para o Google Maps. Para usar o mapa real, gere um código de incorporação (iframe) do Google Maps e substitua o 'src' abaixo. -->
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15951.246479634863!2d-48.48796195!3d-1.45524315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92a48e71869811fd%3A0xc3f7a63e9f4a0c84!2sBel%C3%A9m%2C%20PA!5e0!3m2!1spt-BR!2sbr!4v1678945678901!5m2!1spt-BR!2sbr"
+                        width="100%"
+                        height="450"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
             </div>
-            <div class="bg-white p-8 rounded-xl shadow-md">
-              <h3 class="text-xl font-bold text-r-terra-green mb-4">
-                Serviços de Consultoria
-              </h3>
-              <ul class="list-disc list-inside space-y-2 text-gray-700">
-                <li>
-                  Treinamento e assessoria para equipes da prefeitura em todos
-                  os aspectos da REURB.
-                </li>
-                <li>
-                  Assessoria para captação de verbas estaduais e federais.
-                </li>
-                <li>Elaboração de projetos de lei e normativos.</li>
-                <li>Mapeamento e análise de núcleos urbanos informais.</li>
-                <li>Elaboração de Projeto de REURB para a sociedade.</li>
-              </ul>
+        </section>
+
+        <!-- Problema Section -->
+        <section id="problema" class="bg-white py-16">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center text-r-terra-green mb-8">1. O Problema</h2>
+                <div class="max-w-3xl mx-auto bg-gray-50 p-8 rounded-xl shadow-md">
+                    <p class="text-lg text-gray-700 mb-6">A irregularidade fundiária e urbana é um problema persistente em cidades, gerando ineficiência nos processos de regularização (REURB). Essa situação resulta em diversas complicações:</p>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li>Insegurança jurídica</li>
+                        <li>Problemas ambientais e sociais</li>
+                        <li>Prejuízo ao Poder Público</li>
+                    </ul>
+                </div>
             </div>
-          </div>
-        </div>
-      </section>
+        </section>
 
-      <!-- Mercado Section -->
-      <section id="mercado" class="bg-white py-16">
-        <div class="container mx-auto px-6">
-          <h2
-            class="text-3xl md:text-4xl font-bold text-center text-r-terra-green mb-8"
-          >
-            3. O Mercado
-          </h2>
-          <div class="max-w-3xl mx-auto bg-gray-50 p-8 rounded-xl shadow-md">
-            <p class="text-lg text-gray-700 mb-4">
-              O mercado é vasto, pois a irregularidade fundiária afeta grandes
-              áreas urbanas em todo o Brasil.
-            </p>
-            <h3 class="text-xl font-bold text-r-terra-green mb-2">
-              Público-alvo:
-            </h3>
-            <ul class="list-disc list-inside space-y-2 text-gray-700">
-              <li>
-                Poder Público (cliente de compra): Prefeituras como a de Belém.
-              </li>
-              <li>Pessoas físicas e jurídicas (usuário final).</li>
-              <li>Profissionais do mercado imobiliário (usuário e cliente).</li>
-            </ul>
-          </div>
-        </div>
-      </section>
+        <!-- Solução Section -->
+        <section id="solucao" class="py-16">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center text-r-terra-green mb-8">2. O Produto</h2>
+                <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
+                    <div class="bg-white p-8 rounded-xl shadow-md">
+                        <h3 class="text-xl font-bold text-r-terra-green mb-4">Plataforma Web</h3>
+                        <p class="text-gray-700">Nossa solução é uma plataforma web que utiliza a API de mapas do Google para mapear e rastrear imóveis com situações jurídicas irregulares.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-xl shadow-md">
+                        <h3 class="text-xl font-bold text-r-terra-green mb-4">Serviços de Consultoria</h3>
+                        <ul class="list-disc list-inside space-y-2 text-gray-700">
+                            <li>Treinamento e assessoria para equipes da prefeitura em todos os aspectos da REURB.</li>
+                            <li>Assessoria para captação de verbas estaduais e federais.</li>
+                            <li>Elaboração de projetos de lei e normativos.</li>
+                            <li>Mapeamento e análise de núcleos urbanos informais.</li>
+                            <li>Elaboração de Projeto de REURB para a sociedade.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-      <!-- Missão Section -->
-      <section id="missao" class="py-16">
-        <div class="container mx-auto px-6 text-center">
-          <h2 class="text-3xl md:text-4xl font-bold text-r-terra-green mb-8">
-            Nossa Missão
-          </h2>
-          <p class="text-lg md:text-xl max-w-2xl mx-auto text-gray-700">
-            Transformar cidades e a vida de seus cidadãos ao promover a função
-            social da propriedade, utilizando ordenamento territorial, o
-            planejamento urbano e a regularização fundiária.
-          </p>
-        </div>
-      </section>
+        <!-- Mercado Section -->
+        <section id="mercado" class="bg-white py-16">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center text-r-terra-green mb-8">3. O Mercado</h2>
+                <div class="max-w-3xl mx-auto bg-gray-50 p-8 rounded-xl shadow-md">
+                    <p class="text-lg text-gray-700 mb-4">O mercado é vasto, pois a irregularidade fundiária afeta grandes áreas urbanas em todo o Brasil.</p>
+                    <h3 class="text-xl font-bold text-r-terra-green mb-2">Público-alvo:</h3>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700">
+                        <li>Poder Público (cliente de compra): Prefeituras como a de Belém.</li>
+                        <li>Pessoas físicas e jurídicas (usuário final).</li>
+                        <li>Profissionais do mercado imobiliário (usuário e cliente).</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Missão Section -->
+        <section id="missao" class="py-16">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-r-terra-green mb-8">Nossa Missão</h2>
+                <p class="text-lg md:text-xl max-w-2xl mx-auto text-gray-700">
+                    Transformar cidades e a vida de seus cidadãos ao promover a função social da propriedade, utilizando ordenamento territorial, o planejamento urbano e a regularização fundiária.
+                </p>
+            </div>
+        </section>
 
-      <!-- Contact Section -->
-      <section id="contato" class="py-16 bg-white">
-        <div class="container mx-auto px-6 text-center">
-          <h2 class="text-3xl md:text-4xl font-bold text-r-terra-green mb-8">
-            Entre em Contato Conosco
-          </h2>
-          <a
-            href="mailto:consultoriarterra@gmail.com"
-            class="contact-btn inline-block shadow-lg hover:shadow-xl transition-shadow"
-          >
-            Fale Conosco
-          </a>
-        </div>
-      </section>
+        <!-- Contact Section -->
+        <section id="contato" class="py-16 bg-white">
+            <div class="container mx-auto px-6">
+                 <h2 class="text-3xl md:text-4xl font-bold text-center text-r-terra-green mb-12">Entre em Contato Conosco</h2>
+                <div class="max-w-4xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+                    <div class="text-lg text-gray-700 space-y-4 text-center md:text-left">
+                        <p>
+                            <strong>E-mail:</strong> 
+                            <a href="mailto:consultoriarterra@gmail.com" class="text-r-terra-green hover:underline">consultoriarterra@gmail.com</a>
+                        </p>
+                        <p>
+                            <strong>&#128241; WhatsApp:</strong> 
+                            <a href="https://wa.me/5591982644737" target="_blank" class="text-r-terra-green hover:underline">(91) 98264-4737</a>
+                        </p>
+                        <p>
+                            <strong>&#128205; Endereço:</strong> Pct Guamá, ufpa
+                        </p>
+                    </div>
+                    <div>
+                        <a href="mailto:consultoriarterra@gmail.com" class="contact-btn inline-block shadow-lg hover:shadow-xl transition-shadow">
+                            Fale Conosco
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- Footer -->
     <footer class="bg-r-terra-green text-white text-center py-6">
-      <p>© 2025 R-TERRA. Todos os direitos reservados.</p>
+        <p>© 2025 R-TERRA. Todos os direitos reservados.</p>
     </footer>
-  </body>
+
+</body>
 </html>
